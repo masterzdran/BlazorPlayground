@@ -1,0 +1,16 @@
+﻿@page "/counter"
+<link href="_content/CommonRazorComponents/css/counter.css" rel="stylesheet" />
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+
+<button class="counter-btn counter-btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}

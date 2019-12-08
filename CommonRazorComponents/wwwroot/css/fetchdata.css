@@ -1,0 +1,33 @@
+﻿fetchdata-table {
+    border-collapse: collapse !important
+}
+
+fetchdata-table td,
+fetchdata-table th {
+    background-color: #fff !important
+}
+fetchdata-table th {
+    color: inherit;
+    border-color: #dee2e6
+}
+.fetchdata-table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529
+}
+
+.fetchdata-table td,
+.fetchdata-table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6
+}
+
+.fetchdata-table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6
+}
+
+.fetchdata-table tbody + tbody {
+    border-top: 2px solid #dee2e6
+}
